@@ -1,0 +1,107 @@
+* {
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-size: 62.5%;
+  /* 1rem = 10px */
+}
+
+body {
+  margin: 4rem 0 0 0;
+  font-size: 1.6rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  justify-items: center;
+  text-align: center;
+}
+
+body .container h1 {
+  background-color: #F4D065;
+  font-family: "Quicksand";
+  color: white;
+  font-size: 6rem;
+  padding: 2rem;
+}
+
+body .container p {
+  font-family: "Roboto";
+  font-size: 2.5rem;
+  margin: 2rem;
+}
+
+body .container #billamt {
+  width: 20rem;
+  height: 3rem;
+}
+
+body .container span {
+  font-family: "Roboto";
+  font-size: 2rem;
+}
+
+body .container .calculator {
+  background-color: #F9F9EF;
+  padding: 2rem;
+  margin: 0 0 3rem 0;
+}
+
+body .container .calculator #peopleamt, body .container .calculator option {
+  font-size: 1.5rem;
+  width: 12rem;
+  height: 4rem;
+}
+
+body .container .calculator select #serviceQual {
+  font-size: 1.5rem;
+}
+
+body .container .calculator button {
+  margin: 2.5rem 0;
+  font-size: 1.5rem;
+  width: 8rem;
+  height: 4rem;
+  text-align: center;
+  padding: 0;
+  color: white;
+  background-color: #F4D065;
+  border: none;
+}
+
+body .container .calculator button:hover {
+  background-color: #90AECA;
+}
+
+body #totalTip {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  font-size: 4rem;
+  margin: 2rem;
+  padding: 2rem;
+}
+
+body #totalTip #tip {
+  margin: 0;
+  padding: 0;
+}
+
+body #totalTip #each {
+  padding: 0 2rem;
+}
+/*# sourceMappingURL=styles.css.map */
